@@ -14,6 +14,7 @@
 		EACA8C1B1E3E56520091F8B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACA8C191E3E56520091F8B8 /* LaunchScreen.storyboard */; };
 		EACA8C261E3E56520091F8B8 /* What2Watch_iOS_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA8C251E3E56520091F8B8 /* What2Watch_iOS_2Tests.swift */; };
 		EACA8C311E3E56520091F8B8 /* What2Watch_iOS_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA8C301E3E56520091F8B8 /* What2Watch_iOS_2UITests.swift */; };
+		EACA8C411E3E64150091F8B8 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EACA8C401E3E64150091F8B8 /* back.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EACA8C2C1E3E56520091F8B8 /* What2Watch-iOS-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What2Watch-iOS-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACA8C301E3E56520091F8B8 /* What2Watch_iOS_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What2Watch_iOS_2UITests.swift; sourceTree = "<group>"; };
 		EACA8C321E3E56520091F8B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACA8C401E3E64150091F8B8 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = back.jpg; path = ../../../../Desktop/back.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				EACA8C101E3E56520091F8B8 /* AppDelegate.swift */,
 				EACA8C121E3E56520091F8B8 /* ViewController.swift */,
 				EACA8C141E3E56520091F8B8 /* Main.storyboard */,
+				EACA8C401E3E64150091F8B8 /* back.jpg */,
 				EACA8C171E3E56520091F8B8 /* Assets.xcassets */,
 				EACA8C191E3E56520091F8B8 /* LaunchScreen.storyboard */,
 				EACA8C1C1E3E56520091F8B8 /* Info.plist */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACA8C411E3E64150091F8B8 /* back.jpg in Resources */,
 				EACA8C1B1E3E56520091F8B8 /* LaunchScreen.storyboard in Resources */,
 				EACA8C181E3E56520091F8B8 /* Assets.xcassets in Resources */,
 				EACA8C161E3E56520091F8B8 /* Main.storyboard in Resources */,
