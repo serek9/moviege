@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA19B2301E40B31000E24CD5 /* poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA19B22F1E40B31000E24CD5 /* poster.jpg */; };
+		EA19B2351E40BDF300E24CD5 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = EA19B2311E40BDF300E24CD5 /* error.png */; };
+		EA19B2361E40BDF300E24CD5 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = EA19B2321E40BDF300E24CD5 /* success.png */; };
+		EA19B2371E40BDF300E24CD5 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = EA19B2331E40BDF300E24CD5 /* like.png */; };
+		EA19B2381E40BDF300E24CD5 /* dislike.png in Resources */ = {isa = PBXBuildFile; fileRef = EA19B2341E40BDF300E24CD5 /* dislike.png */; };
 		EACA8C111E3E56520091F8B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA8C101E3E56520091F8B8 /* AppDelegate.swift */; };
 		EACA8C131E3E56520091F8B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA8C121E3E56520091F8B8 /* ViewController.swift */; };
 		EACA8C161E3E56520091F8B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACA8C141E3E56520091F8B8 /* Main.storyboard */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA19B22F1E40B31000E24CD5 /* poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = poster.jpg; path = ../../../../Desktop/poster.jpg; sourceTree = "<group>"; };
+		EA19B2311E40BDF300E24CD5 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = error.png; path = ../../../../Downloads/error.png; sourceTree = "<group>"; };
+		EA19B2321E40BDF300E24CD5 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = success.png; path = ../../../../Downloads/success.png; sourceTree = "<group>"; };
+		EA19B2331E40BDF300E24CD5 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = like.png; path = ../../../../Downloads/like.png; sourceTree = "<group>"; };
+		EA19B2341E40BDF300E24CD5 /* dislike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dislike.png; path = ../../../../Downloads/dislike.png; sourceTree = "<group>"; };
 		EACA8C0D1E3E56520091F8B8 /* What2Watch-iOS-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What2Watch-iOS-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACA8C101E3E56520091F8B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EACA8C121E3E56520091F8B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,7 +112,12 @@
 				EACA8C101E3E56520091F8B8 /* AppDelegate.swift */,
 				EACA8C121E3E56520091F8B8 /* ViewController.swift */,
 				EACA8C141E3E56520091F8B8 /* Main.storyboard */,
+				EA19B22F1E40B31000E24CD5 /* poster.jpg */,
 				EACA8C401E3E64150091F8B8 /* back.jpg */,
+				EA19B2311E40BDF300E24CD5 /* error.png */,
+				EA19B2321E40BDF300E24CD5 /* success.png */,
+				EA19B2331E40BDF300E24CD5 /* like.png */,
+				EA19B2341E40BDF300E24CD5 /* dislike.png */,
 				EACA8C171E3E56520091F8B8 /* Assets.xcassets */,
 				EACA8C191E3E56520091F8B8 /* LaunchScreen.storyboard */,
 				EACA8C1C1E3E56520091F8B8 /* Info.plist */,
@@ -232,8 +247,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA19B2371E40BDF300E24CD5 /* like.png in Resources */,
 				EACA8C411E3E64150091F8B8 /* back.jpg in Resources */,
+				EA19B2361E40BDF300E24CD5 /* success.png in Resources */,
+				EA19B2301E40B31000E24CD5 /* poster.jpg in Resources */,
+				EA19B2351E40BDF300E24CD5 /* error.png in Resources */,
 				EACA8C1B1E3E56520091F8B8 /* LaunchScreen.storyboard in Resources */,
+				EA19B2381E40BDF300E24CD5 /* dislike.png in Resources */,
 				EACA8C181E3E56520091F8B8 /* Assets.xcassets in Resources */,
 				EACA8C161E3E56520091F8B8 /* Main.storyboard in Resources */,
 			);
@@ -488,6 +508,7 @@
 				EACA8C371E3E56520091F8B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EACA8C381E3E56520091F8B8 /* Build configuration list for PBXNativeTarget "What2Watch-iOS-2Tests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +517,7 @@
 				EACA8C3A1E3E56520091F8B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EACA8C3B1E3E56520091F8B8 /* Build configuration list for PBXNativeTarget "What2Watch-iOS-2UITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +526,7 @@
 				EACA8C3D1E3E56520091F8B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
